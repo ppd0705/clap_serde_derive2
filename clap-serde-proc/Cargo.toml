@@ -1,7 +1,7 @@
 [package]
-name = "clap-serde-proc"
+name = "clap-serde-proc2"
 description = "Procedural macro for clap-serde-derive"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2021"
 authors = ["Davide Peressoni"]
 repository = "https://gitlab.com/DPDmancul/clap-serde-derive"

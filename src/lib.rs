@@ -24,11 +24,11 @@ use core::borrow::BorrowMut;
 
 // Re-exports
 pub use clap;
-pub use clap_serde_proc::ClapSerde;
+pub use clap_serde_proc2::ClapSerde;
 pub use serde;
 
 /// Trait representing a struct which can be parsed from clap and serde.
-/// This trait is automatically implemented by [`ClapSerde`][clap_serde_proc::ClapSerde]
+/// This trait is automatically implemented by [`ClapSerde`][clap_serde_proc2::ClapSerde]
 /// derive macro.
 pub trait ClapSerde: Default + From<Self::Opt> + for<'a> From<&'a mut Self::Opt> {
     /// The same struct of the parent but with optional fields.

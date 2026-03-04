@@ -1,4 +1,4 @@
-use clap_serde_derive::ClapSerde;
+use clap_serde_derive2::ClapSerde;
 
 #[derive(ClapSerde)]
 struct Unit;
